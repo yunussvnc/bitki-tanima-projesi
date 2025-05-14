@@ -65,6 +65,11 @@ print(result)
 - CUDA (GPU için)
 - Diğer gereksinimler için requirements.txt dosyasına bakın
 
+## Güncellemeler
+
+- 13.05.2025: İlk sürüm yayınlandı
+- 13.05.2025: README dosyası güncellendi
+
 ## Lisans
 
 MIT License 
