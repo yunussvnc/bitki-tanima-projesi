@@ -1,0 +1,224 @@
+{
+    "uretim_teknikleri": {
+        "tohum_uretime": {
+            "tohum_secimi": {
+                "kriterler": [
+                    "Sağlıklı bitkilerden",
+                    "Olgun tohumlar",
+                    "Hastalıksız",
+                    "Yüksek çimlenme oranı"
+                ],
+                "saklama": [
+                    "Serin ve kuru ortam",
+                    "Hava almayan kaplar",
+                    "Etiketleme",
+                    "Tarih kaydı"
+                ]
+            },
+            "cimlendirme": {
+                "kosullar": [
+                    "Uygun sıcaklık",
+                    "Yeterli nem",
+                    "Hafif toprak",
+                    "Işık kontrolü"
+                ],
+                "bakim": [
+                    "Düzenli sulama",
+                    "Hastalık kontrolü",
+                    "Gübreleme",
+                    "Havalandırma"
+                ]
+            }
+        },
+        "celik_uretime": {
+            "celik_secimi": {
+                "kriterler": [
+                    "Sağlıklı sürgünler",
+                    "Uygun uzunluk",
+                    "Yaprak durumu",
+                    "Odunlaşma durumu"
+                ],
+                "hazirlama": [
+                    "Temiz kesim",
+                    "Yaprak temizliği",
+                    "Hormon uygulaması",
+                    "Nemli ortam"
+                ]
+            },
+            "koklendirme": {
+                "kosullar": [
+                    "Yüksek nem",
+                    "Uygun sıcaklık",
+                    "Hafif toprak",
+                    "Işık kontrolü"
+                ],
+                "bakim": [
+                    "Düzenli sulama",
+                    "Hastalık kontrolü",
+                    "Gübreleme",
+                    "Havalandırma"
+                ]
+            }
+        },
+        "asi_uretime": {
+            "asi_tipleri": {
+                "goz_asisi": {
+                    "ozellikler": [
+                        "Tek göz kullanımı",
+                        "Yüksek başarı oranı",
+                        "Az materyal kullanımı",
+                        "Hızlı büyüme"
+                    ],
+                    "uygulama": [
+                        "Göz seçimi",
+                        "Kesim tekniği",
+                        "Bağlama",
+                        "Koruma"
+                    ]
+                },
+                "kalem_asisi": {
+                    "ozellikler": [
+                        "Kalem kullanımı",
+                        "Güçlü büyüme",
+                        "Hızlı verim",
+                        "Dayanıklılık"
+                    ],
+                    "uygulama": [
+                        "Kalem seçimi",
+                        "Kesim tekniği",
+                        "Bağlama",
+                        "Koruma"
+                    ]
+                }
+            },
+            "bakim": {
+                "oncesi": [
+                    "Anaç hazırlığı",
+                    "Kalem/göz seçimi",
+                    "Alet sterilizasyonu",
+                    "Zamanlama"
+                ],
+                "sonrasi": [
+                    "Bağlama kontrolü",
+                    "Sürgün kontrolü",
+                    "Hastalık kontrolü",
+                    "Budama"
+                ]
+            }
+        },
+        "doku_kulturu": {
+            "laboratuvar_kosullari": {
+                "gerekli_ekipman": [
+                    "Steril kabin",
+                    "Otoklav",
+                    "pH metre",
+                    "Mikroskop"
+                ],
+                "ortam_hazirligi": [
+                    "Besin ortamı hazırlama",
+                    "pH ayarlama",
+                    "Sterilizasyon",
+                    "Döküm"
+                ]
+            },
+            "uretim_asamalari": {
+                "eksplant_secimi": [
+                    "Sağlıklı bitki",
+                    "Uygun organ",
+                    "Sterilizasyon",
+                    "Kesim"
+                ],
+                "kultur_kosullari": [
+                    "Sıcaklık kontrolü",
+                    "Işık kontrolü",
+                    "Nem kontrolü",
+                    "Hava sirkülasyonu"
+                ],
+                "cogaltma": [
+                    "Sürgün çoğaltma",
+                    "Kök oluşturma",
+                    "Adaptasyon",
+                    "Dış ortama alıştırma"
+                ]
+            }
+        },
+        "yumru_uretime": {
+            "yumru_secimi": {
+                "kriterler": [
+                    "Sağlıklı yumrular",
+                    "Uygun boyut",
+                    "Hastalıksız",
+                    "Göz durumu"
+                ],
+                "saklama": [
+                    "Serin ortam",
+                    "Nem kontrolü",
+                    "Hastalık kontrolü",
+                    "Tarih kaydı"
+                ]
+            },
+            "uretim": {
+                "toprak_hazirligi": [
+                    "Sürüm",
+                    "Gübreleme",
+                    "Drenaj",
+                    "pH ayarlama"
+                ],
+                "ekim": [
+                    "Derinlik ayarlama",
+                    "Mesafe ayarlama",
+                    "Toprak sıkıştırma",
+                    "Sulama"
+                ],
+                "bakim": [
+                    "Düzenli sulama",
+                    "Gübreleme",
+                    "Hastalık kontrolü",
+                    "Yabani ot kontrolü"
+                ]
+            }
+        }
+    },
+    "uretim_planlamasi": {
+        "mevsimsel_planlama": {
+            "ilkbahar": [
+                "Tohum ekimi",
+                "Fide üretimi",
+                "Aşılama",
+                "Toprak hazırlığı"
+            ],
+            "yaz": [
+                "Sulama",
+                "Gübreleme",
+                "Hastalık kontrolü",
+                "Hasat"
+            ],
+            "sonbahar": [
+                "Hasat",
+                "Toprak hazırlığı",
+                "Kışlık ekim",
+                "Budama"
+            ],
+            "kis": [
+                "Kış koruması",
+                "Budama",
+                "Toprak hazırlığı",
+                "Planlama"
+            ]
+        },
+        "uretim_takibi": {
+            "kayitlar": [
+                "Ekim tarihi",
+                "Çimlenme oranı",
+                "Büyüme durumu",
+                "Hastalık durumu"
+            ],
+            "analizler": [
+                "Toprak analizi",
+                "Yaprak analizi",
+                "Su analizi",
+                "Verim analizi"
+            ]
+        }
+    }
+}

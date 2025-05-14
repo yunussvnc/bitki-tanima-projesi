@@ -1,0 +1,123 @@
+{
+    "zorluk_seviyeleri": {
+        "baslangic": {
+            "aciklama": "Yeni başlayanlar için ideal, minimum bakım gerektiren bitkiler",
+            "ozellikler": [
+                "Dayanıklı ve toleranslı",
+                "Az su ihtiyacı",
+                "Geniş sıcaklık aralığına uyumlu",
+                "Hastalıklara karşı dirençli"
+            ],
+            "bitkiler": [
+                "aloevera",
+                "spinach",
+                "lettuce",
+                "radish",
+                "basil"
+            ],
+            "bakim_onerileri": [
+                "Haftada 1-2 kez sulama",
+                "Ayda 1 kez gübreleme",
+                "Orta ışık seviyesi",
+                "Düzenli havalandırma"
+            ]
+        },
+        "orta": {
+            "aciklama": "Biraz deneyim gerektiren, orta düzey bakım isteyen bitkiler",
+            "ozellikler": [
+                "Özel bakım gerektirir",
+                "Düzenli sulama ve gübreleme",
+                "Belirli sıcaklık aralığı",
+                "Hastalıklara karşı orta direnç"
+            ],
+            "bitkiler": [
+                "tomato",
+                "cucumber",
+                "eggplant",
+                "banana",
+                "mango"
+            ],
+            "bakim_onerileri": [
+                "Haftada 2-3 kez sulama",
+                "2 haftada 1 gübreleme",
+                "Yüksek ışık seviyesi",
+                "Düzenli budama"
+            ]
+        },
+        "ileri": {
+            "aciklama": "Deneyimli yetiştiriciler için, özel bakım gerektiren bitkiler",
+            "ozellikler": [
+                "Özel yetiştirme koşulları",
+                "Sık ve düzenli bakım",
+                "Dar sıcaklık aralığı",
+                "Hastalıklara karşı hassas"
+            ],
+            "bitkiler": [
+                "orchid",
+                "pineapple",
+                "vanilla",
+                "coffee",
+                "cacao"
+            ],
+            "bakim_onerileri": [
+                "Günlük sulama kontrolü",
+                "Haftalık gübreleme",
+                "Özel ışık düzeni",
+                "Sürekli izleme ve bakım"
+            ]
+        }
+    },
+    "bakim_onerileri": {
+        "sulama": {
+            "baslangic": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Toprak nemli olana kadar",
+                "zaman": "Sabah erken veya akşam geç"
+            },
+            "orta": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Toprak hafif kuruyana kadar",
+                "zaman": "Sabah erken"
+            },
+            "ileri": {
+                "siklik": "Günlük kontrol",
+                "miktar": "Bitki türüne göre özel",
+                "zaman": "Bitki türüne göre özel"
+            }
+        },
+        "gubreleme": {
+            "baslangic": {
+                "siklik": "Ayda 1 kez",
+                "tip": "Genel amaçlı sıvı gübre",
+                "miktar": "Önerilen dozun yarısı"
+            },
+            "orta": {
+                "siklik": "2 haftada 1 kez",
+                "tip": "Bitki türüne özel gübre",
+                "miktar": "Önerilen doz"
+            },
+            "ileri": {
+                "siklik": "Haftalık",
+                "tip": "Özel formülasyonlu gübre",
+                "miktar": "Bitki durumuna göre ayarlanır"
+            }
+        },
+        "isik": {
+            "baslangic": {
+                "seviye": "Orta ışık",
+                "sure": "6-8 saat",
+                "konum": "Pencere önü veya açık alan"
+            },
+            "orta": {
+                "seviye": "Yüksek ışık",
+                "sure": "8-10 saat",
+                "konum": "Güney cephe veya özel aydınlatma"
+            },
+            "ileri": {
+                "seviye": "Özel ışık düzeni",
+                "sure": "Bitki türüne göre değişir",
+                "konum": "Kontrollü ortam"
+            }
+        }
+    }
+}

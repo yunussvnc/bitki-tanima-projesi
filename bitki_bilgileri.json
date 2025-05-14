@@ -1,0 +1,2006 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "last_updated": "2024-03-19",
+        "total_plants": 30
+    },
+    "categories": {
+        "meyve": [
+            "banana",
+            "mango",
+            "pineapple",
+            "watermelon",
+            "cantaloupe",
+            "orange",
+            "papaya",
+            "pomelo",
+            "waterapple",
+            "guava"
+        ],
+        "sebze": [
+            "cucumber",
+            "eggplant",
+            "spinach",
+            "shallot",
+            "sweet potatoes",
+            "longbeans",
+            "kale"
+        ],
+        "tahil": [
+            "paddy",
+            "corn",
+            "soybeans"
+        ],
+        "baharat": [
+            "ginger",
+            "galangal",
+            "curcuma",
+            "peper chili"
+        ],
+        "sukulent": [
+            "aloevera"
+        ],
+        "endustriyel": [
+            "tobacco",
+            "cassava",
+            "coconut"
+        ],
+        "egzotik": [
+            "bilimbi"
+        ]
+    },
+    "plants": {
+        "paddy": {
+            "id": "P001",
+            "category": "tahil",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/paddy.jpg",
+            "turkce_adi": "Pirinç",
+            "latince_adi": "Oryza sativa",
+            "bakim_ipuclari": [
+                "Sürekli su altında tutulmalıdır",
+                "Sıcak ve nemli iklimi sever",
+                "Düzenli gübreleme gerektirir"
+            ],
+            "sulama": {
+                "siklik": "Günlük",
+                "miktar": "Toprak sürekli su altında olmalı",
+                "onemli_notlar": "Kuraklık durumunda verim düşer"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6-8 saat"
+            },
+            "toprak": {
+                "tipi": "Killi ve organik maddece zengin",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Pirinç Yanıklığı",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Bakteriyel Yaprak Yanıklığı",
+                    "belirtiler": "Yaprak kenarlarında sararma",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                }
+            ],
+            "hasat_zamani": "Ekim-Kasım ayları",
+            "verim": "Dekar başına 600-800 kg",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Sonbahar",
+                "buyume_suresi": "4-6 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "130 kcal/100g",
+                "karbonhidrat": "28g",
+                "protein": "2.7g",
+                "lif": "0.4g",
+                "faydalari": [
+                    "Enerji kaynağı",
+                    "B vitamini içerir",
+                    "Glutensiz besin kaynağı"
+                ]
+            },
+            "kullanim_alani": [
+                "Temel gıda maddesi",
+                "Pirinç unu üretimi",
+                "Sake üretimi"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "7-10 gün",
+                    "dikkat_edilecekler": "Sürekli su altında tutulmalı"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "20-25 gün",
+                    "dikkat_edilecekler": "Fidelerin sağlıklı gelişimi için gübreleme önemli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "3-4 ay",
+                    "dikkat_edilecekler": "Su seviyesi kontrol edilmeli"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal",
+                "Ilıman"
+            ],
+            "yan_etkiler": [
+                "Arsenik içerebilir",
+                "Aşırı tüketimde kan şekerini yükseltebilir"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Direkt tarla ekimi"
+            ]
+        },
+        "corn": {
+            "id": "P002",
+            "category": "tahil",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/corn.jpg",
+            "turkce_adi": "Mısır",
+            "latince_adi": "Zea mays",
+            "bakim_ipuclari": [
+                "Düzenli sulama önemlidir",
+                "Yüksek sıcaklık sever",
+                "Gübreleme kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Toprak nemli kalmalı",
+                "onemli_notlar": "Çiçeklenme döneminde su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 8 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Mısır Yaprak Yanıklığı",
+                    "belirtiler": "Yapraklarda sarı-kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Ağustos-Eylül ayları",
+            "verim": "Dekar başına 800-1000 kg",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Yaz sonu",
+                "buyume_suresi": "3-4 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "86 kcal/100g",
+                "karbonhidrat": "19g",
+                "protein": "3.2g",
+                "lif": "2.7g",
+                "faydalari": [
+                    "Antioksidan içerir",
+                    "Göz sağlığına faydalı",
+                    "Lif kaynağı"
+                ]
+            },
+            "kullanim_alani": [
+                "Temel gıda maddesi",
+                "Hayvan yemi",
+                "Biyoyakıt üretimi"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "5-7 gün",
+                    "dikkat_edilecekler": "Toprak sıcaklığı önemli"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "15-20 gün",
+                    "dikkat_edilecekler": "Gübreleme kritik"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Sulama düzenli olmalı"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde sindirim sorunları",
+                "Genetiği değiştirilmiş çeşitler olabilir"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Direkt tarla ekimi"
+            ]
+        },
+        "banana": {
+            "id": "P003",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/banana.jpg",
+            "turkce_adi": "Muz",
+            "latince_adi": "Musa spp.",
+            "bakim_ipuclari": [
+                "Sıcak ve nemli iklim sever",
+                "Rüzgardan korunmalıdır",
+                "Düzenli gübreleme gerektirir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Kök bölgesi nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Panama Hastalığı",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                },
+                {
+                    "isim": "Sigatoka Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Yıl boyunca (olgunlaşma durumuna göre)",
+            "verim": "Ağaç başına 20-40 kg",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "Yıl boyunca",
+                "buyume_suresi": "9-12 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "89 kcal/100g",
+                "karbonhidrat": "22.8g",
+                "protein": "1.1g",
+                "lif": "2.6g",
+                "faydalari": [
+                    "Potasyum kaynağı",
+                    "Enerji verici",
+                    "Sindirim sistemine faydalı"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Mutfak kullanımı",
+                "İlaç endüstrisi"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Sıcaklık kontrolü önemli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "6-8 ay",
+                    "dikkat_edilecekler": "Düzenli gübreleme"
+                },
+                {
+                    "asama": "Meyve verme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Destek sistemi gerekli"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde potasyum fazlalığı",
+                "Alerjik reaksiyonlar olabilir"
+            ],
+            "cogaltma_yontemi": [
+                "Sürgün ile çoğaltma",
+                "Doku kültürü"
+            ]
+        },
+        "cucumber": {
+            "id": "P004",
+            "category": "sebze",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/cucumber.jpg",
+            "turkce_adi": "Salatalık",
+            "latince_adi": "Cucumis sativus",
+            "bakim_ipuclari": [
+                "Ilıman iklim sever",
+                "Destek sistemi gerekebilir",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Yaprakları ıslatmadan sulama yapılmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Külleme",
+                    "belirtiler": "Yapraklarda beyaz toz benzeri lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Bakteriyel Solgunluk",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Bitki başına 10-15 adet",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Yaz ayları",
+                "buyume_suresi": "2-3 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "15 kcal/100g",
+                "karbonhidrat": "3.6g",
+                "protein": "0.7g",
+                "lif": "0.5g",
+                "faydalari": [
+                    "Hidrasyon sağlar",
+                    "Düşük kalorili",
+                    "Cilt sağlığına faydalı"
+                ]
+            },
+            "kullanim_alani": [
+                "Salata",
+                "Turşu",
+                "Cilt bakımı"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "5-7 gün",
+                    "dikkat_edilecekler": "Toprak sıcaklığı önemli"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "15-20 gün",
+                    "dikkat_edilecekler": "Destek sistemi kurulmalı"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "1-2 ay",
+                    "dikkat_edilecekler": "Düzenli sulama ve gübreleme"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde sindirim sorunları",
+                "Alerjik reaksiyonlar olabilir"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Fide ile üretim"
+            ]
+        },
+        "eggplant": {
+            "id": "P005",
+            "category": "sebze",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/eggplant.jpg",
+            "turkce_adi": "Patlıcan",
+            "latince_adi": "Solanum melongena",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Düzenli gübreleme önemlidir",
+                "Destek sistemi gerekebilir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Düzenli sulama verimi artırır"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Verticillium Solgunluğu",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                },
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Yaz-Sonbahar ayları",
+            "verim": "Bitki başına 5-8 adet",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Yaz-Sonbahar",
+                "buyume_suresi": "3-4 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "25 kcal/100g",
+                "karbonhidrat": "6g",
+                "protein": "1g",
+                "lif": "3g",
+                "faydalari": [
+                    "Antioksidan içerir",
+                    "Kalp sağlığına faydalı",
+                    "Kemik sağlığını destekler"
+                ]
+            },
+            "kullanim_alani": [
+                "Yemeklik",
+                "Konserve",
+                "Turşu"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "7-10 gün",
+                    "dikkat_edilecekler": "Sıcaklık kontrolü önemli"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "20-25 gün",
+                    "dikkat_edilecekler": "Gübreleme kritik"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Destek sistemi gerekli"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde sindirim sorunları",
+                "Alerjik reaksiyonlar olabilir"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Fide ile üretim"
+            ]
+        },
+        "mango": {
+            "id": "P006",
+            "category": "meyve",
+            "difficulty_level": "zor",
+            "image_path": "images/plants/mango.jpg",
+            "turkce_adi": "Mango",
+            "latince_adi": "Mangifera indica",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Rüzgardan korunmalıdır",
+                "Düzenli budama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Meyve tutumu sırasında su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 8 saat"
+            },
+            "toprak": {
+                "tipi": "Derin, iyi drene edilmiş toprak",
+                "ph": "5.5-7.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Antraknoz",
+                    "belirtiler": "Meyve ve yapraklarda siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Bakteriyel Kanser",
+                    "belirtiler": "Gövde ve dallarda yaralar",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Ağaç başına 100-200 kg",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "Yaz ayları",
+                "buyume_suresi": "3-5 yıl"
+            },
+            "besin_degerleri": {
+                "kalori": "60 kcal/100g",
+                "karbonhidrat": "15g",
+                "protein": "0.8g",
+                "lif": "1.6g",
+                "faydalari": [
+                    "C vitamini kaynağı",
+                    "Göz sağlığına faydalı",
+                    "Sindirim sistemini destekler"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Meyve suyu",
+                "Reçel ve marmelat"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "6-12 ay",
+                    "dikkat_edilecekler": "Sıcaklık kontrolü önemli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "2-3 yıl",
+                    "dikkat_edilecekler": "Düzenli budama"
+                },
+                {
+                    "asama": "Meyve verme",
+                    "sure": "3-5 yıl",
+                    "dikkat_edilecekler": "Gübreleme kritik"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde sindirim sorunları",
+                "Alerjik reaksiyonlar olabilir"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Aşı ile üretim"
+            ]
+        },
+        "pineapple": {
+            "id": "P007",
+            "category": "meyve",
+            "difficulty_level": "zor",
+            "image_path": "images/plants/pineapple.jpg",
+            "turkce_adi": "Ananas",
+            "latince_adi": "Ananas comosus",
+            "bakim_ipuclari": [
+                "Sıcak ve nemli iklim sever",
+                "Asidik toprak ister",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Fazla su sevmez"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Asidik, iyi drene edilmiş toprak",
+                "ph": "4.5-5.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                },
+                {
+                    "isim": "Yaprak Yanıklığı",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "18-24 ay sonra",
+            "verim": "Bitki başına 1-2 adet",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "18-24 ay sonra",
+                "buyume_suresi": "18-24 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "50 kcal/100g",
+                "karbonhidrat": "13g",
+                "protein": "0.5g",
+                "lif": "1.4g",
+                "faydalari": [
+                    "C vitamini kaynağı",
+                    "Sindirim enzimleri içerir",
+                    "Antioksidan özellikler"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Meyve suyu",
+                "Konserve"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "6-8 ay",
+                    "dikkat_edilecekler": "Sıcaklık kontrolü önemli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "12-16 ay",
+                    "dikkat_edilecekler": "Düzenli gübreleme"
+                },
+                {
+                    "asama": "Meyve verme",
+                    "sure": "18-24 ay",
+                    "dikkat_edilecekler": "Su kontrolü kritik"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde ağız yaraları",
+                "Alerjik reaksiyonlar olabilir"
+            ],
+            "cogaltma_yontemi": [
+                "Taç yaprakları ile çoğaltma",
+                "Sürgün ile çoğaltma"
+            ]
+        },
+        "watermelon": {
+            "id": "P008",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/watermelon.jpg",
+            "turkce_adi": "Karpuz",
+            "latince_adi": "Citrullus lanatus",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Geniş alan gerektirir",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Meyve olgunlaşma döneminde su azaltılmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 8 saat"
+            },
+            "toprak": {
+                "tipi": "Kumlu, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Fusarium Solgunluğu",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                },
+                {
+                    "isim": "Antraknoz",
+                    "belirtiler": "Yaprak ve meyvelerde siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Dekar başına 3-4 ton",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Yaz ayları",
+                "buyume_suresi": "3-4 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "30 kcal/100g",
+                "karbonhidrat": "7.6g",
+                "protein": "0.6g",
+                "lif": "0.4g",
+                "faydalari": [
+                    "Hidrasyon sağlar",
+                    "Likopen içerir",
+                    "Düşük kalorili"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Meyve suyu",
+                "Salata"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "5-7 gün",
+                    "dikkat_edilecekler": "Toprak sıcaklığı önemli"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "15-20 gün",
+                    "dikkat_edilecekler": "Geniş alan gerekli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Düzenli sulama"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde sindirim sorunları",
+                "Şeker içeriği yüksek"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Direkt tarla ekimi"
+            ]
+        },
+        "soybeans": {
+            "id": "P009",
+            "category": "tahil",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/soybeans.jpg",
+            "turkce_adi": "Soya Fasulyesi",
+            "latince_adi": "Glycine max",
+            "bakim_ipuclari": [
+                "Ilıman iklim sever",
+                "Azot bağlayıcı özelliği vardır",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Çiçeklenme döneminde su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Bakteriyel Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda sulu lekeler",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Sonbahar ayları",
+            "verim": "Dekar başına 300-400 kg",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Sonbahar",
+                "buyume_suresi": "3-4 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "446 kcal/100g",
+                "karbonhidrat": "30g",
+                "protein": "36g",
+                "lif": "9g",
+                "faydalari": [
+                    "Yüksek protein içerir",
+                    "Omega-3 kaynağı",
+                    "Kemik sağlığını destekler"
+                ]
+            },
+            "kullanim_alani": [
+                "Gıda endüstrisi",
+                "Hayvan yemi",
+                "Biyoyakıt"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "5-7 gün",
+                    "dikkat_edilecekler": "Toprak sıcaklığı önemli"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "15-20 gün",
+                    "dikkat_edilecekler": "Azot bağlama özelliği"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Düzenli sulama"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Alerjik reaksiyonlar olabilir",
+                "Fitoöstrojen içerir"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Direkt tarla ekimi"
+            ]
+        },
+        "spinach": {
+            "id": "P010",
+            "category": "sebze",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/spinach.jpg",
+            "turkce_adi": "Ispanak",
+            "latince_adi": "Spinacia oleracea",
+            "bakim_ipuclari": [
+                "Serin iklim sever",
+                "Hızlı büyür",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Yarı gölge",
+                "saat": "Günde 4-6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "İlkbahar ve Sonbahar",
+            "verim": "Dekar başına 2-3 ton",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar ve Sonbahar",
+                "hasat_zamani": "30-45 gün sonra",
+                "buyume_suresi": "30-45 gün"
+            },
+            "besin_degerleri": {
+                "kalori": "23 kcal/100g",
+                "karbonhidrat": "3.6g",
+                "protein": "2.9g",
+                "lif": "2.2g",
+                "faydalari": [
+                    "Demir kaynağı",
+                    "K vitamini içerir",
+                    "Antioksidan özellikler"
+                ]
+            },
+            "kullanim_alani": [
+                "Salata",
+                "Yemeklik",
+                "Smoothie"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "5-7 gün",
+                    "dikkat_edilecekler": "Serin hava gerekli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "20-30 gün",
+                    "dikkat_edilecekler": "Düzenli sulama"
+                },
+                {
+                    "asama": "Hasat",
+                    "sure": "30-45 gün",
+                    "dikkat_edilecekler": "Yapraklar taze olmalı"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Serin"
+            ],
+            "yan_etkiler": [
+                "Oksalat içerir",
+                "Böbrek taşı riski"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Direkt tarla ekimi"
+            ]
+        },
+        "aloevera": {
+            "id": "P011",
+            "category": "sukulent",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/aloevera.jpg",
+            "turkce_adi": "Aloe Vera",
+            "latince_adi": "Aloe barbadensis miller",
+            "bakim_ipuclari": [
+                "Sıcak ve kuru iklim sever",
+                "Fazla su sevmez",
+                "Drenajı iyi toprak ister"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1 kez",
+                "miktar": "Az miktarda",
+                "onemli_notlar": "Toprak tamamen kuruduktan sonra sulanmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Kumlu, iyi drene edilmiş toprak",
+                "ph": "6.0-8.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Yapraklarda yumuşama ve kararma",
+                    "tedavi": "Sulama azaltılmalı"
+                },
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Yıl boyunca",
+            "verim": "Bitki başına 2-3 yaprak",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "Yıl boyunca",
+                "buyume_suresi": "2-3 yıl"
+            },
+            "besin_degerleri": {
+                "kalori": "4 kcal/100g",
+                "karbonhidrat": "0.1g",
+                "protein": "0.1g",
+                "lif": "0.1g",
+                "faydalari": [
+                    "Cilt sağlığına faydalı",
+                    "Antioksidan özellikler",
+                    "Yara iyileştirici"
+                ]
+            },
+            "kullanim_alani": [
+                "Cilt bakımı",
+                "İlaç endüstrisi",
+                "Kozmetik"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Az su kullanımı"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "1-2 yıl",
+                    "dikkat_edilecekler": "Güneş ışığı önemli"
+                },
+                {
+                    "asama": "Olgunluk",
+                    "sure": "2-3 yıl",
+                    "dikkat_edilecekler": "Düzenli budama"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal",
+                "Ilıman"
+            ],
+            "yan_etkiler": [
+                "Alerjik reaksiyonlar olabilir",
+                "Hamilelikte kullanımı riskli"
+            ],
+            "cogaltma_yontemi": [
+                "Yavru bitkiler ile çoğaltma",
+                "Yaprak çeliği"
+            ]
+        },
+        "bilimbi": {
+            "id": "P012",
+            "category": "egzotik",
+            "difficulty_level": "zor",
+            "image_path": "images/plants/bilimbi.jpg",
+            "turkce_adi": "Bilimbi",
+            "latince_adi": "Averrhoa bilimbi",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Nemli ortam ister",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Yıl boyunca",
+            "verim": "Ağaç başına 50-100 kg",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "Yıl boyunca",
+                "buyume_suresi": "2-3 yıl"
+            },
+            "besin_degerleri": {
+                "kalori": "31 kcal/100g",
+                "karbonhidrat": "7.3g",
+                "protein": "0.6g",
+                "lif": "0.6g",
+                "faydalari": [
+                    "C vitamini kaynağı",
+                    "Antioksidan özellikler",
+                    "Sindirim sistemine faydalı"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Turşu",
+                "Meyve suyu"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "6-8 ay",
+                    "dikkat_edilecekler": "Sıcaklık kontrolü"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "1-2 yıl",
+                    "dikkat_edilecekler": "Düzenli gübreleme"
+                },
+                {
+                    "asama": "Meyve verme",
+                    "sure": "2-3 yıl",
+                    "dikkat_edilecekler": "Nem kontrolü"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde mide rahatsızlığı",
+                "Asit içeriği yüksek"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Çelik ile üretim"
+            ]
+        },
+        "cantaloupe": {
+            "id": "P013",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/cantaloupe.jpg",
+            "turkce_adi": "Kavun",
+            "latince_adi": "Cucumis melo var. cantalupensis",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Geniş alan gerektirir",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Meyve olgunlaşma döneminde su azaltılmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 8 saat"
+            },
+            "toprak": {
+                "tipi": "Kumlu, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Külleme",
+                    "belirtiler": "Yapraklarda beyaz toz benzeri lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Fusarium Solgunluğu",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Dekar başına 2-3 ton",
+            "mevsimsel_bilgiler": {
+                "ekim_zamani": "İlkbahar",
+                "hasat_zamani": "Yaz ayları",
+                "buyume_suresi": "3-4 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "34 kcal/100g",
+                "karbonhidrat": "8g",
+                "protein": "0.8g",
+                "lif": "0.9g",
+                "faydalari": [
+                    "A vitamini kaynağı",
+                    "Hidrasyon sağlar",
+                    "Antioksidan özellikler"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Meyve salatası",
+                "Smoothie"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Çimlenme",
+                    "sure": "5-7 gün",
+                    "dikkat_edilecekler": "Toprak sıcaklığı önemli"
+                },
+                {
+                    "asama": "Fideleme",
+                    "sure": "15-20 gün",
+                    "dikkat_edilecekler": "Geniş alan gerekli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Düzenli sulama"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Ilıman",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Aşırı tüketimde sindirim sorunları",
+                "Şeker içeriği yüksek"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Direkt tarla ekimi"
+            ]
+        },
+        "cassava": {
+            "id": "P014",
+            "category": "endustriyel",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/cassava.jpg",
+            "turkce_adi": "Manyok",
+            "latince_adi": "Manihot esculenta",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Kuraklığa dayanıklıdır",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Fazla su sevmez"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Bakteriyel Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda sulu lekeler",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "8-12 ay sonra",
+            "verim": "Dekar başına 20-30 ton",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "8-12 ay sonra",
+                "buyume_suresi": "8-12 ay"
+            },
+            "besin_degerleri": {
+                "kalori": "160 kcal/100g",
+                "karbonhidrat": "38g",
+                "protein": "1.4g",
+                "lif": "1.8g",
+                "faydalari": [
+                    "Enerji kaynağı",
+                    "Glutensiz",
+                    "Nişasta kaynağı"
+                ]
+            },
+            "kullanim_alani": [
+                "Temel gıda maddesi",
+                "Nişasta üretimi",
+                "Hayvan yemi"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "2-3 ay",
+                    "dikkat_edilecekler": "Toprak hazırlığı önemli"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "6-8 ay",
+                    "dikkat_edilecekler": "Düzenli gübreleme"
+                },
+                {
+                    "asama": "Olgunluk",
+                    "sure": "8-12 ay",
+                    "dikkat_edilecekler": "Hasat zamanlaması"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Çiğ tüketimi zehirli olabilir",
+                "Siyanür içerebilir"
+            ],
+            "cogaltma_yontemi": [
+                "Gövde çeliği ile çoğaltma",
+                "Rizom ile üretim"
+            ]
+        },
+        "coconut": {
+            "id": "P015",
+            "category": "endustriyel",
+            "difficulty_level": "zor",
+            "image_path": "images/plants/coconut.jpg",
+            "turkce_adi": "Hindistan Cevizi",
+            "latince_adi": "Cocos nucifera",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Tuzlu suya dayanıklıdır",
+                "Rüzgardan korunmalıdır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Kök bölgesi nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 8 saat"
+            },
+            "toprak": {
+                "tipi": "Kumlu, iyi drene edilmiş toprak",
+                "ph": "5.5-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Lethal Yellowing",
+                    "belirtiler": "Yapraklarda sararma ve dökülme",
+                    "tedavi": "Antibiyotik uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Yıl boyunca",
+            "verim": "Ağaç başına 50-100 adet",
+            "mevsimsel_bilgiler": {
+                "dikim_zamani": "İlkbahar",
+                "hasat_zamani": "Yıl boyunca",
+                "buyume_suresi": "5-7 yıl"
+            },
+            "besin_degerleri": {
+                "kalori": "354 kcal/100g",
+                "karbonhidrat": "15g",
+                "protein": "3.3g",
+                "lif": "9g",
+                "faydalari": [
+                    "Orta zincirli yağ asitleri",
+                    "Elektrolit kaynağı",
+                    "Lif içeriği yüksek"
+                ]
+            },
+            "kullanim_alani": [
+                "Taze meyve",
+                "Yağ üretimi",
+                "İçecek endüstrisi"
+            ],
+            "buyume_sureci": [
+                {
+                    "asama": "Fideleme",
+                    "sure": "6-12 ay",
+                    "dikkat_edilecekler": "Nem kontrolü"
+                },
+                {
+                    "asama": "Büyüme",
+                    "sure": "3-5 yıl",
+                    "dikkat_edilecekler": "Güneş ışığı önemli"
+                },
+                {
+                    "asama": "Meyve verme",
+                    "sure": "5-7 yıl",
+                    "dikkat_edilecekler": "Düzenli bakım"
+                }
+            ],
+            "iklim_bolgeleri": [
+                "Tropikal",
+                "Subtropikal"
+            ],
+            "yan_etkiler": [
+                "Alerjik reaksiyonlar olabilir",
+                "Yüksek yağ içeriği"
+            ],
+            "cogaltma_yontemi": [
+                "Tohum ile çoğaltma",
+                "Fide ile üretim"
+            ]
+        },
+        "melon": {
+            "id": "P016",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/melon.jpg",
+            "turkce_adi": "Kavun",
+            "latince_adi": "Cucumis melo",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Geniş alan gerektirir",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Meyve olgunlaşma döneminde su azaltılmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 8 saat"
+            },
+            "toprak": {
+                "tipi": "Kumlu, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Külleme",
+                    "belirtiler": "Yapraklarda beyaz toz benzeri lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Fusarium Solgunluğu",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Dekar başına 2-3 ton"
+        },
+        "orange": {
+            "id": "P017",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/orange.jpg",
+            "turkce_adi": "Portakal",
+            "latince_adi": "Citrus sinensis",
+            "bakim_ipuclari": [
+                "Ilıman iklim sever",
+                "Düzenli budama önemlidir",
+                "Gübreleme kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Meyve tutumu sırasında su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Citrus Greening",
+                    "belirtiler": "Yapraklarda sararma ve damar yeşilleşmesi",
+                    "tedavi": "Böcek kontrolü ve ağaç sağlığı"
+                },
+                {
+                    "isim": "Antraknoz",
+                    "belirtiler": "Meyve ve yapraklarda siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Kış ayları",
+            "verim": "Ağaç başına 100-150 kg"
+        },
+        "papaya": {
+            "id": "P018",
+            "category": "meyve",
+            "difficulty_level": "zor",
+            "image_path": "images/plants/papaya.jpg",
+            "turkce_adi": "Papaya",
+            "latince_adi": "Carica papaya",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Rüzgardan korunmalıdır",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Papaya Ringspot Virus",
+                    "belirtiler": "Yapraklarda halka şeklinde lekeler",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Yıl boyunca",
+            "verim": "Ağaç başına 30-50 kg"
+        },
+        "peper chili": {
+            "id": "P019",
+            "category": "baharat",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/peper_chili.jpg",
+            "turkce_adi": "Biber",
+            "latince_adi": "Capsicum annuum",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Düzenli sulama önemlidir",
+                "Destek sistemi gerekebilir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Yaprakları ıslatmadan sulama yapılmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Bakteriyel Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda sulu lekeler",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                },
+                {
+                    "isim": "Verticillium Solgunluğu",
+                    "belirtiler": "Yapraklarda sararma ve solma",
+                    "tedavi": "Dayanıklı çeşitlerin kullanımı"
+                }
+            ],
+            "hasat_zamani": "Yaz-Sonbahar ayları",
+            "verim": "Bitki başına 1-2 kg"
+        },
+        "pomelo": {
+            "id": "P020",
+            "category": "meyve",
+            "difficulty_level": "zor",
+            "image_path": "images/plants/pomelo.jpg",
+            "turkce_adi": "Pomelo",
+            "latince_adi": "Citrus maxima",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Düzenli budama önemlidir",
+                "Gübreleme kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 1-2 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Meyve tutumu sırasında su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Citrus Greening",
+                    "belirtiler": "Yapraklarda sararma ve damar yeşilleşmesi",
+                    "tedavi": "Böcek kontrolü ve ağaç sağlığı"
+                },
+                {
+                    "isim": "Antraknoz",
+                    "belirtiler": "Meyve ve yapraklarda siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Kış ayları",
+            "verim": "Ağaç başına 100-150 kg"
+        },
+        "shallot": {
+            "id": "P021",
+            "category": "sebze",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/shallot.jpg",
+            "turkce_adi": "Arpacık Soğanı",
+            "latince_adi": "Allium cepa var. aggregatum",
+            "bakim_ipuclari": [
+                "Serin iklim sever",
+                "Düzenli sulama önemlidir",
+                "Toprak hazırlığı kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Pembe Kök Çürüklüğü",
+                    "belirtiler": "Köklerde pembe renklenme ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                },
+                {
+                    "isim": "Yaprak Yanıklığı",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Dekar başına 2-3 ton"
+        },
+        "sweet potatoes": {
+            "id": "P022",
+            "category": "sebze",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/sweet_potatoes.jpg",
+            "turkce_adi": "Tatlı Patates",
+            "latince_adi": "Ipomoea batatas",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Geniş alan gerektirir",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Kumlu, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                },
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "Sonbahar ayları",
+            "verim": "Dekar başına 3-4 ton"
+        },
+        "tobacco": {
+            "id": "P023",
+            "category": "baharat",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/tobacco.jpg",
+            "turkce_adi": "Tütün",
+            "latince_adi": "Nicotiana tabacum",
+            "bakim_ipuclari": [
+                "Ilıman iklim sever",
+                "Düzenli sulama önemlidir",
+                "Gübreleme kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Yaprakları ıslatmadan sulama yapılmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Mavi Küf",
+                    "belirtiler": "Yapraklarda mavi-yeşil küf",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Bakteriyel Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda sulu lekeler",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Dekar başına 1-2 ton"
+        },
+        "waterapple": {
+            "id": "P024",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/waterapple.jpg",
+            "turkce_adi": "Su Elması",
+            "latince_adi": "Syzygium aqueum",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Nemli ortam ister",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Bol su",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Antraknoz",
+                    "belirtiler": "Meyve ve yapraklarda siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Ağaç başına 50-100 kg"
+        },
+        "longbeans": {
+            "id": "P025",
+            "category": "sebze",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/longbeans.jpg",
+            "turkce_adi": "Uzun Fasulye",
+            "latince_adi": "Vigna unguiculata subsp. sesquipedalis",
+            "bakim_ipuclari": [
+                "Sıcak iklim sever",
+                "Destek sistemi gerekir",
+                "Düzenli sulama önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Çiçeklenme döneminde su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Bakteriyel Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda sulu lekeler",
+                    "tedavi": "Bakır bazlı ilaçlar"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Yaz ayları",
+            "verim": "Dekar başına 2-3 ton"
+        },
+        "kale": {
+            "id": "P026",
+            "category": "sebze",
+            "difficulty_level": "kolay",
+            "image_path": "images/plants/kale.jpg",
+            "turkce_adi": "Lahana",
+            "latince_adi": "Brassica oleracea var. sabellica",
+            "bakim_ipuclari": [
+                "Serin iklim sever",
+                "Düzenli sulama önemlidir",
+                "Gübreleme kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "6.0-7.0 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Kara Leke",
+                    "belirtiler": "Yapraklarda siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Sonbahar-Kış ayları",
+            "verim": "Dekar başına 2-3 ton"
+        },
+        "guava": {
+            "id": "P027",
+            "category": "meyve",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/guava.jpg",
+            "turkce_adi": "Guava",
+            "latince_adi": "Psidium guajava",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Düzenli budama önemlidir",
+                "Gübreleme kritik önem taşır"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Meyve tutumu sırasında su stresi olmamalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Tam güneş",
+                "saat": "Günde en az 6 saat"
+            },
+            "toprak": {
+                "tipi": "İyi drene edilmiş, verimli toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Antraknoz",
+                    "belirtiler": "Meyve ve yapraklarda siyah lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                },
+                {
+                    "isim": "Kök Çürüklüğü",
+                    "belirtiler": "Köklerde kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                }
+            ],
+            "hasat_zamani": "Yıl boyunca",
+            "verim": "Ağaç başına 50-100 kg"
+        },
+        "ginger": {
+            "id": "P028",
+            "category": "baharat",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/ginger.jpg",
+            "turkce_adi": "Zencefil",
+            "latince_adi": "Zingiber officinale",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Nemli ortam ister",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Yarı gölge",
+                "saat": "Günde 4-6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Rizom Çürüklüğü",
+                    "belirtiler": "Rizomlarda kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                },
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "8-10 ay sonra",
+            "verim": "Dekar başına 2-3 ton"
+        },
+        "galangal": {
+            "id": "P029",
+            "category": "baharat",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/galangal.jpg",
+            "turkce_adi": "Galangal",
+            "latince_adi": "Alpinia galanga",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Nemli ortam ister",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Yarı gölge",
+                "saat": "Günde 4-6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Rizom Çürüklüğü",
+                    "belirtiler": "Rizomlarda kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                },
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "8-10 ay sonra",
+            "verim": "Dekar başına 2-3 ton"
+        },
+        "curcuma": {
+            "id": "P030",
+            "category": "baharat",
+            "difficulty_level": "orta",
+            "image_path": "images/plants/curcuma.jpg",
+            "turkce_adi": "Zerdeçal",
+            "latince_adi": "Curcuma longa",
+            "bakim_ipuclari": [
+                "Tropikal iklim sever",
+                "Nemli ortam ister",
+                "Düzenli gübreleme önemlidir"
+            ],
+            "sulama": {
+                "siklik": "Haftada 2-3 kez",
+                "miktar": "Orta düzeyde",
+                "onemli_notlar": "Toprak nemli kalmalı"
+            },
+            "isik_ihtiyaci": {
+                "miktar": "Yarı gölge",
+                "saat": "Günde 4-6 saat"
+            },
+            "toprak": {
+                "tipi": "Zengin, iyi drene edilmiş toprak",
+                "ph": "5.5-6.5 arası"
+            },
+            "hastaliklar": [
+                {
+                    "isim": "Rizom Çürüklüğü",
+                    "belirtiler": "Rizomlarda kararma ve çürüme",
+                    "tedavi": "Toprak drenajının iyileştirilmesi"
+                },
+                {
+                    "isim": "Yaprak Lekesi",
+                    "belirtiler": "Yapraklarda kahverengi lekeler",
+                    "tedavi": "Fungisit uygulaması"
+                }
+            ],
+            "hasat_zamani": "8-10 ay sonra",
+            "verim": "Dekar başına 2-3 ton"
+        }
+    }
+}

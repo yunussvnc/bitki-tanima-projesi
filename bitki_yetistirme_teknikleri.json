@@ -1,0 +1,284 @@
+{
+    "toprak_hazirligi": {
+        "toprak_tipleri": {
+            "kumlu": {
+                "ozellikler": [
+                    "İyi drenaj",
+                    "Hızlı ısınma",
+                    "Kolay işlenebilirlik"
+                ],
+                "uygun_bitkiler": [
+                    "havuc",
+                    "patates",
+                    "turp"
+                ],
+                "iyilestirme": [
+                    "Organik madde ilavesi",
+                    "Kil ilavesi",
+                    "Mineral gübre kullanımı"
+                ]
+            },
+            "killi": {
+                "ozellikler": [
+                    "Yüksek su tutma kapasitesi",
+                    "Zengin mineral içeriği",
+                    "Yavaş ısınma"
+                ],
+                "uygun_bitkiler": [
+                    "lahana",
+                    "brokoli",
+                    "karnabahar"
+                ],
+                "iyilestirme": [
+                    "Kum ilavesi",
+                    "Organik madde ilavesi",
+                    "Düzenli havalandırma"
+                ]
+            },
+            "tınlı": {
+                "ozellikler": [
+                    "İdeal drenaj",
+                    "İyi su tutma",
+                    "Zengin besin içeriği"
+                ],
+                "uygun_bitkiler": [
+                    "domates",
+                    "salatalık",
+                    "biber"
+                ],
+                "iyilestirme": [
+                    "Düzenli gübreleme",
+                    "Organik madde ilavesi",
+                    "pH düzenlemesi"
+                ]
+            }
+        },
+        "toprak_hazirlama": {
+            "temel_adimlar": [
+                "Toprak analizi",
+                "pH düzenlemesi",
+                "Organik madde ilavesi",
+                "Gübreleme",
+                "Havalandırma"
+            ],
+            "mevsimsel_hazirlik": {
+                "ilkbahar": [
+                    "Toprak sürümü",
+                    "Gübre uygulaması",
+                    "Tohum yatağı hazırlığı"
+                ],
+                "sonbahar": [
+                    "Derin sürüm",
+                    "Organik madde ilavesi",
+                    "Kışlık gübreleme"
+                ]
+            }
+        }
+    },
+    "ekim_dikim": {
+        "tohum_ekimi": {
+            "direkt_ekim": {
+                "uygun_bitkiler": [
+                    "fasulye",
+                    "mısır",
+                    "kabak"
+                ],
+                "teknikler": [
+                    "Sıra arası mesafe ayarlama",
+                    "Tohum derinliği kontrolü",
+                    "Toprak sıkıştırma"
+                ]
+            },
+            "fide_uretime": {
+                "uygun_bitkiler": [
+                    "domates",
+                    "biber",
+                    "patlıcan"
+                ],
+                "teknikler": [
+                    "Tohum yatağı hazırlığı",
+                    "Sulama kontrolü",
+                    "Sıcaklık ayarlaması"
+                ]
+            }
+        },
+        "fide_dikimi": {
+            "hazirlik": [
+                "Fide seçimi",
+                "Toprak hazırlığı",
+                "Dikim çukuru açma"
+            ],
+            "dikim_teknikleri": [
+                "Doğru derinlik",
+                "Toprak sıkıştırma",
+                "Can suyu verme"
+            ],
+            "sonrası_bakim": [
+                "Düzenli sulama",
+                "Gölgeleme",
+                "Rüzgar koruması"
+            ]
+        }
+    },
+    "sulama_teknikleri": {
+        "damla_sulama": {
+            "avantajlar": [
+                "Su tasarrufu",
+                "Hedefli sulama",
+                "Yaprak ıslanmasını önleme"
+            ],
+            "uygun_bitkiler": [
+                "domates",
+                "biber",
+                "patlıcan"
+            ],
+            "kurulum": [
+                "Ana hat döşeme",
+                "Damlatıcı yerleştirme",
+                "Basınç kontrolü"
+            ]
+        },
+        "yağmurlama": {
+            "avantajlar": [
+                "Geniş alan sulama",
+                "Kolay kurulum",
+                "Hava nemlendirme"
+            ],
+            "uygun_bitkiler": [
+                "çim",
+                "marul",
+                "ıspanak"
+            ],
+            "kurulum": [
+                "Sprinkler yerleştirme",
+                "Basınç ayarlama",
+                "Alan kontrolü"
+            ]
+        },
+        "salma_sulama": {
+            "avantajlar": [
+                "Basit sistem",
+                "Düşük maliyet",
+                "Kolay bakım"
+            ],
+            "uygun_bitkiler": [
+                "mısır",
+                "pamuk",
+                "buğday"
+            ],
+            "uygulama": [
+                "Tava hazırlığı",
+                "Su seviyesi kontrolü",
+                "Sulama süresi ayarlama"
+            ]
+        }
+    },
+    "gubreleme": {
+        "organik_gubreler": {
+            "kompost": {
+                "hazirlama": [
+                    "Malzeme seçimi",
+                    "Karıştırma",
+                    "Olgunlaştırma"
+                ],
+                "uygulama": [
+                    "Toprak hazırlığı",
+                    "Serpme",
+                    "Karıştırma"
+                ]
+            },
+            "hayvan_gubresi": {
+                "tipleri": [
+                    "Sığır gübresi",
+                    "Koyun gübresi",
+                    "Tavuk gübresi"
+                ],
+                "uygulama": [
+                    "Olgunlaştırma",
+                    "Toprak hazırlığı",
+                    "Serpme"
+                ]
+            }
+        },
+        "kimyasal_gubreler": {
+            "npk": {
+                "ozellikler": [
+                    "Hızlı etki",
+                    "Hedefli besleme",
+                    "Kolay uygulama"
+                ],
+                "uygulama": [
+                    "Doz ayarlama",
+                    "Zamanlama",
+                    "Dağıtım"
+                ]
+            },
+            "mikro_elementler": {
+                "ozellikler": [
+                    "Spesifik besinler",
+                    "Düşük doz",
+                    "Hızlı etki"
+                ],
+                "uygulama": [
+                    "Yapraktan uygulama",
+                    "Topraktan uygulama",
+                    "Doz kontrolü"
+                ]
+            }
+        }
+    },
+    "budama": {
+        "meyve_agaclari": {
+            "sekl_budama": {
+                "amac": [
+                    "Ağaç formu oluşturma",
+                    "Işık alımını artırma",
+                    "Verimi artırma"
+                ],
+                "teknikler": [
+                    "Tepe budaması",
+                    "Yan dal budaması",
+                    "İnce dal temizliği"
+                ]
+            },
+            "verim_budama": {
+                "amac": [
+                    "Meyve kalitesini artırma",
+                    "Periyodisiteyi önleme",
+                    "Hastalıkları azaltma"
+                ],
+                "teknikler": [
+                    "Kuru dal temizliği",
+                    "Sıklaşma kontrolü",
+                    "Gençleştirme"
+                ]
+            }
+        },
+        "sus_bitkileri": {
+            "form_budama": {
+                "amac": [
+                    "Bitki formu oluşturma",
+                    "Çiçeklenmeyi artırma",
+                    "Görsel estetik"
+                ],
+                "teknikler": [
+                    "Tepe budaması",
+                    "Yan dal budaması",
+                    "Şekil verme"
+                ]
+            },
+            "canlandirma": {
+                "amac": [
+                    "Bitkiyi gençleştirme",
+                    "Verimi artırma",
+                    "Hastalıkları azaltma"
+                ],
+                "teknikler": [
+                    "Kök budaması",
+                    "Gövde budaması",
+                    "Yan dal temizliği"
+                ]
+            }
+        }
+    }
+}

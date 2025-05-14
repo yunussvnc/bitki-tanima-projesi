@@ -1,0 +1,178 @@
+{
+    "iklim_bolgeleri": {
+        "tropikal": {
+            "ozellikler": [
+                "Yüksek sıcaklık (25-35°C)",
+                "Yüksek nem",
+                "Yıl boyu yağış",
+                "Kısa kış mevsimi"
+            ],
+            "uygun_bitkiler": [
+                "muz",
+                "mango",
+                "ananas",
+                "papaya",
+                "hindistan cevizi"
+            ],
+            "bakim_onerileri": [
+                "Düzenli sulama",
+                "Yüksek nem kontrolü",
+                "Güneş koruması",
+                "Hastalık kontrolü"
+            ]
+        },
+        "subtropikal": {
+            "ozellikler": [
+                "Ilıman sıcaklık (20-30°C)",
+                "Orta nem",
+                "Mevsimsel yağış",
+                "Hafif kış"
+            ],
+            "uygun_bitkiler": [
+                "portakal",
+                "limon",
+                "mandalina",
+                "avokado",
+                "zeytin"
+            ],
+            "bakim_onerileri": [
+                "Mevsimsel sulama",
+                "Kış koruması",
+                "Budama",
+                "Gübreleme"
+            ]
+        },
+        "iliman": {
+            "ozellikler": [
+                "Orta sıcaklık (15-25°C)",
+                "Düşük nem",
+                "Düzenli yağış",
+                "Belirgin mevsimler"
+            ],
+            "uygun_bitkiler": [
+                "elma",
+                "armut",
+                "kiraz",
+                "şeftali",
+                "erik"
+            ],
+            "bakim_onerileri": [
+                "Mevsimsel bakım",
+                "Kış koruması",
+                "Budama",
+                "Hastalık kontrolü"
+            ]
+        },
+        "kurak": {
+            "ozellikler": [
+                "Yüksek sıcaklık (30-40°C)",
+                "Düşük nem",
+                "Az yağış",
+                "Sıcak geceler"
+            ],
+            "uygun_bitkiler": [
+                "aloevera",
+                "kaktüs",
+                "zeytin",
+                "incir",
+                "hurma"
+            ],
+            "bakim_onerileri": [
+                "Az sulama",
+                "Güneş koruması",
+                "Toprak drenajı",
+                "Kuraklık toleransı"
+            ]
+        }
+    },
+    "mevsimsel_ozellikler": {
+        "ilkbahar": {
+            "sıcaklık": "15-25°C",
+            "yağış": "Orta",
+            "nem": "Orta",
+            "bakim": [
+                "Ekim-dikim",
+                "Gübreleme",
+                "Budama",
+                "Hastalık kontrolü"
+            ]
+        },
+        "yaz": {
+            "sıcaklık": "25-35°C",
+            "yağış": "Az",
+            "nem": "Düşük",
+            "bakim": [
+                "Sulama",
+                "Gölgeleme",
+                "Hastalık kontrolü",
+                "Hasat"
+            ]
+        },
+        "sonbahar": {
+            "sıcaklık": "15-25°C",
+            "yağış": "Orta",
+            "nem": "Orta",
+            "bakim": [
+                "Hasat",
+                "Toprak hazırlığı",
+                "Kışlık ekim",
+                "Budama"
+            ]
+        },
+        "kış": {
+            "sıcaklık": "0-15°C",
+            "yağış": "Yüksek",
+            "nem": "Yüksek",
+            "bakim": [
+                "Kış koruması",
+                "Budama",
+                "Toprak hazırlığı",
+                "Hastalık kontrolü"
+            ]
+        }
+    },
+    "ozel_kosullar": {
+        "sera": {
+            "ozellikler": [
+                "Kontrollü sıcaklık",
+                "Kontrollü nem",
+                "Yapay ışık",
+                "Hastalık kontrolü"
+            ],
+            "uygun_bitkiler": [
+                "domates",
+                "salatalık",
+                "biber",
+                "çilek",
+                "marul"
+            ],
+            "bakim_onerileri": [
+                "Sıcaklık kontrolü",
+                "Nem kontrolü",
+                "Işık kontrolü",
+                "Hastalık kontrolü"
+            ]
+        },
+        "ev_ici": {
+            "ozellikler": [
+                "Sabit sıcaklık",
+                "Düşük nem",
+                "Sınırlı ışık",
+                "Sınırlı alan"
+            ],
+            "uygun_bitkiler": [
+                "aloevera",
+                "orkide",
+                "sukulent",
+                "begonvil",
+                "kaktüs"
+            ],
+            "bakim_onerileri": [
+                "Düzenli sulama",
+                "Işık kontrolü",
+                "Hastalık kontrolü",
+                "Budama"
+            ]
+        }
+    }
+}

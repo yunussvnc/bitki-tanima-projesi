@@ -1,0 +1,199 @@
+{
+    "hastaliklar": {
+        "mantar_hastaliklari": {
+            "kulleme": {
+                "belirtiler": [
+                    "Yapraklarda beyaz pudra benzeri lekeler",
+                    "Yaprakların sararması ve dökülmesi",
+                    "Bitkinin zayıflaması"
+                ],
+                "tedavi": [
+                    "Hastalıklı yaprakların temizlenmesi",
+                    "Fungisit uygulaması",
+                    "Hava sirkülasyonunun artırılması",
+                    "Sulama sıklığının azaltılması"
+                ],
+                "onleme": [
+                    "Düzenli havalandırma",
+                    "Yaprakları ıslatmaktan kaçınma",
+                    "Uygun sulama teknikleri",
+                    "Dayanıklı çeşitlerin seçilmesi"
+                ]
+            },
+            "kucuktan": {
+                "belirtiler": [
+                    "Yapraklarda kahverengi lekeler",
+                    "Lekelerin genişlemesi",
+                    "Yaprakların kuruması"
+                ],
+                "tedavi": [
+                    "Hastalıklı yaprakların temizlenmesi",
+                    "Bakır içerikli fungisit uygulaması",
+                    "Bitki beslemesinin düzenlenmesi"
+                ],
+                "onleme": [
+                    "Düzenli bakım",
+                    "Uygun sulama",
+                    "Hava sirkülasyonu",
+                    "Dayanıklı çeşitler"
+                ]
+            }
+        },
+        "bakteriyel_hastaliklar": {
+            "yaprak_lekeleri": {
+                "belirtiler": [
+                    "Yapraklarda siyah veya kahverengi lekeler",
+                    "Lekelerin etrafında sarı halka",
+                    "Yaprakların dökülmesi"
+                ],
+                "tedavi": [
+                    "Hastalıklı yaprakların temizlenmesi",
+                    "Bakır içerikli ilaç uygulaması",
+                    "Bitki beslemesinin düzenlenmesi"
+                ],
+                "onleme": [
+                    "Temiz sulama suyu kullanımı",
+                    "Düzenli bakım",
+                    "Hava sirkülasyonu",
+                    "Dayanıklı çeşitler"
+                ]
+            }
+        },
+        "viral_hastaliklar": {
+            "mozaik_virusu": {
+                "belirtiler": [
+                    "Yapraklarda mozaik desenli lekeler",
+                    "Yaprakların şekil bozukluğu",
+                    "Bitkinin gelişiminin yavaşlaması"
+                ],
+                "tedavi": [
+                    "Hastalıklı bitkilerin imha edilmesi",
+                    "Vektör böceklerin kontrolü",
+                    "Temiz üretim materyali kullanımı"
+                ],
+                "onleme": [
+                    "Vektör böceklerin kontrolü",
+                    "Temiz üretim materyali",
+                    "Dayanıklı çeşitler",
+                    "Düzenli kontrol"
+                ]
+            }
+        }
+    },
+    "zararlilar": {
+        "bocekler": {
+            "yaprak_biti": {
+                "belirtiler": [
+                    "Yapraklarda küçük yeşil veya siyah böcekler",
+                    "Yaprakların kıvrılması",
+                    "Yapışkan madde (bal özü) birikimi"
+                ],
+                "tedavi": [
+                    "Doğal predatörlerin kullanımı",
+                    "Böcek ilacı uygulaması",
+                    "Yaprakların yıkanması"
+                ],
+                "onleme": [
+                    "Düzenli kontrol",
+                    "Doğal predatörlerin teşviki",
+                    "Uygun sulama",
+                    "Dayanıklı çeşitler"
+                ]
+            },
+            "orumcek_akari": {
+                "belirtiler": [
+                    "Yapraklarda ince ağlar",
+                    "Yaprakların sararması",
+                    "Bitkinin zayıflaması"
+                ],
+                "tedavi": [
+                    "Akarisit uygulaması",
+                    "Yaprakların yıkanması",
+                    "Nem seviyesinin artırılması"
+                ],
+                "onleme": [
+                    "Düzenli kontrol",
+                    "Uygun nem seviyesi",
+                    "Hava sirkülasyonu",
+                    "Dayanıklı çeşitler"
+                ]
+            }
+        },
+        "nematodlar": {
+            "koke_nematodu": {
+                "belirtiler": [
+                    "Köklerde şişkinlikler",
+                    "Bitkinin gelişiminin yavaşlaması",
+                    "Yaprakların sararması"
+                ],
+                "tedavi": [
+                    "Nematisit uygulaması",
+                    "Toprak solarizasyonu",
+                    "Dayanıklı çeşitlerin kullanımı"
+                ],
+                "onleme": [
+                    "Temiz toprak kullanımı",
+                    "Crop rotation",
+                    "Dayanıklı çeşitler",
+                    "Düzenli kontrol"
+                ]
+            }
+        }
+    },
+    "besin_eksiklikleri": {
+        "azot": {
+            "belirtiler": [
+                "Yaprakların sararması",
+                "Bitkinin zayıf gelişimi",
+                "Küçük yapraklar"
+            ],
+            "tedavi": [
+                "Azotlu gübre uygulaması",
+                "Organik madde ilavesi",
+                "Toprak pH düzenlemesi"
+            ],
+            "onleme": [
+                "Düzenli gübreleme",
+                "Toprak analizi",
+                "Uygun sulama",
+                "Organik madde kullanımı"
+            ]
+        },
+        "fosfor": {
+            "belirtiler": [
+                "Mor yapraklar",
+                "Zayıf kök gelişimi",
+                "Geç çiçeklenme"
+            ],
+            "tedavi": [
+                "Fosforlu gübre uygulaması",
+                "Toprak pH düzenlemesi",
+                "Organik madde ilavesi"
+            ],
+            "onleme": [
+                "Düzenli gübreleme",
+                "Toprak analizi",
+                "Uygun sulama",
+                "Organik madde kullanımı"
+            ]
+        },
+        "potasyum": {
+            "belirtiler": [
+                "Yaprak kenarlarında yanma",
+                "Zayıf meyve tutumu",
+                "Hastalıklara karşı hassasiyet"
+            ],
+            "tedavi": [
+                "Potasyumlu gübre uygulaması",
+                "Toprak pH düzenlemesi",
+                "Organik madde ilavesi"
+            ],
+            "onleme": [
+                "Düzenli gübreleme",
+                "Toprak analizi",
+                "Uygun sulama",
+                "Organik madde kullanımı"
+            ]
+        }
+    }
+}

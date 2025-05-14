@@ -1,0 +1,239 @@
+{
+    "hasat_teknikleri": {
+        "meyve_hasati": {
+            "olgunluk_kriterleri": {
+                "gorsel": [
+                    "Renk değişimi",
+                    "Boyut",
+                    "Şekil",
+                    "Yüzey durumu"
+                ],
+                "fiziksel": [
+                    "Sertlik",
+                    "Ağırlık",
+                    "Koku",
+                    "Tat"
+                ],
+                "kimyasal": [
+                    "Şeker içeriği",
+                    "Asit oranı",
+                    "Kuru madde",
+                    "Nişasta içeriği"
+                ]
+            },
+            "hasat_yontemleri": {
+                "manuel": {
+                    "teknikler": [
+                        "Elle toplama",
+                        "Makas kullanımı",
+                        "Sap kesimi",
+                        "Sınıflandırma"
+                    ],
+                    "avantajlar": [
+                        "Hassas hasat",
+                        "Az zarar",
+                        "Kalite kontrolü",
+                        "Seçici toplama"
+                    ]
+                },
+                "mekanik": {
+                    "teknikler": [
+                        "Sarsma",
+                        "Kesme",
+                        "Vakumlama",
+                        "Toplama"
+                    ],
+                    "avantajlar": [
+                        "Hızlı hasat",
+                        "Düşük maliyet",
+                        "İşçilik tasarrufu",
+                        "Verimlilik"
+                    ]
+                }
+            }
+        },
+        "sebze_hasati": {
+            "olgunluk_kriterleri": {
+                "gorsel": [
+                    "Renk",
+                    "Boyut",
+                    "Şekil",
+                    "Yaprak durumu"
+                ],
+                "fiziksel": [
+                    "Sertlik",
+                    "Ağırlık",
+                    "Tazelik",
+                    "Nem"
+                ],
+                "kimyasal": [
+                    "Kuru madde",
+                    "Şeker içeriği",
+                    "Nitrat içeriği",
+                    "Vitamin içeriği"
+                ]
+            },
+            "hasat_yontemleri": {
+                "manuel": {
+                    "teknikler": [
+                        "Elle toplama",
+                        "Kesme",
+                        "Sökme",
+                        "Temizleme"
+                    ],
+                    "avantajlar": [
+                        "Hassas hasat",
+                        "Az zarar",
+                        "Kalite kontrolü",
+                        "Seçici toplama"
+                    ]
+                },
+                "mekanik": {
+                    "teknikler": [
+                        "Kesme",
+                        "Sökme",
+                        "Toplama",
+                        "Temizleme"
+                    ],
+                    "avantajlar": [
+                        "Hızlı hasat",
+                        "Düşük maliyet",
+                        "İşçilik tasarrufu",
+                        "Verimlilik"
+                    ]
+                }
+            }
+        }
+    },
+    "depolama_teknikleri": {
+        "soguk_depolama": {
+            "kosullar": {
+                "sicaklik": {
+                    "meyveler": "0-4°C",
+                    "sebzeler": "4-8°C",
+                    "kök_bitkileri": "0-2°C"
+                },
+                "nem": {
+                    "meyveler": "%85-90",
+                    "sebzeler": "%90-95",
+                    "kök_bitkileri": "%95-98"
+                },
+                "hava_sirkulasyonu": [
+                    "Düzenli havalandırma",
+                    "Nem kontrolü",
+                    "Sıcaklık kontrolü",
+                    "CO2 kontrolü"
+                ]
+            },
+            "depolama_sureleri": {
+                "meyveler": {
+                    "elma": "6-8 ay",
+                    "armut": "4-6 ay",
+                    "portakal": "2-3 ay"
+                },
+                "sebzeler": {
+                    "patates": "6-8 ay",
+                    "soğan": "4-6 ay",
+                    "havuç": "4-6 ay"
+                }
+            }
+        },
+        "kuru_depolama": {
+            "kosullar": {
+                "sicaklik": "15-20°C",
+                "nem": "%60-65",
+                "hava_sirkulasyonu": [
+                    "Düzenli havalandırma",
+                    "Nem kontrolü",
+                    "Sıcaklık kontrolü",
+                    "Zararlı kontrolü"
+                ]
+            },
+            "depolama_sureleri": {
+                "tahillar": {
+                    "buğday": "1-2 yıl",
+                    "arpa": "1-2 yıl",
+                    "mısır": "1 yıl"
+                },
+                "baklagiller": {
+                    "fasulye": "1-2 yıl",
+                    "mercimek": "1-2 yıl",
+                    "nohut": "1-2 yıl"
+                }
+            }
+        },
+        "ozel_depolama": {
+            "kontrol_atmosfer": {
+                "kosullar": {
+                    "oksijen": "%2-3",
+                    "karbondioksit": "%3-5",
+                    "sicaklik": "0-4°C",
+                    "nem": "%90-95"
+                },
+                "uygulama": [
+                    "Gaz kontrolü",
+                    "Sıcaklık kontrolü",
+                    "Nem kontrolü",
+                    "Kalite kontrolü"
+                ]
+            },
+            "vakum_depolama": {
+                "kosullar": {
+                    "basinc": "0.1-0.2 bar",
+                    "sicaklik": "0-4°C",
+                    "nem": "%90-95"
+                },
+                "uygulama": [
+                    "Basınç kontrolü",
+                    "Sıcaklık kontrolü",
+                    "Nem kontrolü",
+                    "Kalite kontrolü"
+                ]
+            }
+        }
+    },
+    "hasat_sonrasi_islemler": {
+        "temizleme": {
+            "yontemler": [
+                "Yıkama",
+                "Kurutma",
+                "Sınıflandırma",
+                "Boyutlama"
+            ],
+            "kontrol": [
+                "Kalite kontrolü",
+                "Hastalık kontrolü",
+                "Zararlı kontrolü",
+                "Hasarlı ürün ayırma"
+            ]
+        },
+        "ambalajlama": {
+            "ambalaj_tipleri": [
+                "Karton kutu",
+                "Plastik kasa",
+                "File torba",
+                "Vakum poşet"
+            ],
+            "etiketleme": [
+                "Ürün adı",
+                "Miktar",
+                "Tarih",
+                "Kalite sınıfı"
+            ]
+        },
+        "tasima": {
+            "kosullar": [
+                "Sıcaklık kontrolü",
+                "Nem kontrolü",
+                "Hava sirkülasyonu",
+                "Zarar önleme"
+            ],
+            "araclar": [
+                "Soğuk kamyon",
+                "Konteyner",
+                "Vagon",
+                "Uçak"
+            ]
+        }
+    }
+}

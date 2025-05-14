@@ -1,0 +1,252 @@
+{
+    "meyveler": {
+        "muz": {
+            "besin_degerleri": {
+                "kalori": 89,
+                "karbonhidrat": 22.8,
+                "protein": 1.1,
+                "yag": 0.3,
+                "lif": 2.6,
+                "potasyum": 358,
+                "c_vitamini": 8.7,
+                "b6_vitamini": 0.4
+            },
+            "faydalari": [
+                "Potasyum kaynağı",
+                "Sindirim yardımcısı",
+                "Enerji kaynağı",
+                "Kalp sağlığı"
+            ],
+            "kullanim": [
+                "Taze tüketim",
+                "Smoothie",
+                "Tatlı yapımı",
+                "Bebek maması"
+            ]
+        },
+        "mango": {
+            "besin_degerleri": {
+                "kalori": 60,
+                "karbonhidrat": 15,
+                "protein": 0.8,
+                "yag": 0.4,
+                "lif": 1.6,
+                "a_vitamini": 54,
+                "c_vitamini": 36.4,
+                "e_vitamini": 0.9
+            },
+            "faydalari": [
+                "C vitamini kaynağı",
+                "Göz sağlığı",
+                "Sindirim yardımcısı",
+                "Cilt sağlığı"
+            ],
+            "kullanim": [
+                "Taze tüketim",
+                "Meyve salatası",
+                "Smoothie",
+                "Tatlı yapımı"
+            ]
+        }
+    },
+    "sebzeler": {
+        "ispanak": {
+            "besin_degerleri": {
+                "kalori": 23,
+                "karbonhidrat": 3.6,
+                "protein": 2.9,
+                "yag": 0.4,
+                "lif": 2.2,
+                "demir": 2.7,
+                "k_vitamini": 483,
+                "a_vitamini": 469
+            },
+            "faydalari": [
+                "Demir kaynağı",
+                "Kemik sağlığı",
+                "Antioksidan",
+                "Göz sağlığı"
+            ],
+            "kullanim": [
+                "Salata",
+                "Yemek",
+                "Smoothie",
+                "Çorba"
+            ]
+        },
+        "domates": {
+            "besin_degerleri": {
+                "kalori": 18,
+                "karbonhidrat": 3.9,
+                "protein": 0.9,
+                "yag": 0.2,
+                "lif": 1.2,
+                "c_vitamini": 13.7,
+                "k_vitamini": 7.9,
+                "potasyum": 237
+            },
+            "faydalari": [
+                "Likopen kaynağı",
+                "Kalp sağlığı",
+                "Cilt sağlığı",
+                "Antioksidan"
+            ],
+            "kullanim": [
+                "Salata",
+                "Yemek",
+                "Sos",
+                "Çorba"
+            ]
+        }
+    },
+    "tahillar": {
+        "pirinç": {
+            "besin_degerleri": {
+                "kalori": 130,
+                "karbonhidrat": 28,
+                "protein": 2.7,
+                "yag": 0.3,
+                "lif": 0.4,
+                "demir": 0.2,
+                "b1_vitamini": 0.1,
+                "b3_vitamini": 1.6
+            },
+            "faydalari": [
+                "Enerji kaynağı",
+                "Sindirim kolaylığı",
+                "Glutensiz",
+                "Düşük yağ"
+            ],
+            "kullanim": [
+                "Pilav",
+                "Çorba",
+                "Tatlı",
+                "Garnitür"
+            ]
+        },
+        "mısır": {
+            "besin_degerleri": {
+                "kalori": 86,
+                "karbonhidrat": 19,
+                "protein": 3.2,
+                "yag": 1.2,
+                "lif": 2.7,
+                "b1_vitamini": 0.2,
+                "b5_vitamini": 0.8,
+                "folat": 42
+            },
+            "faydalari": [
+                "Antioksidan",
+                "Lif kaynağı",
+                "Göz sağlığı",
+                "Enerji kaynağı"
+            ],
+            "kullanim": [
+                "Haşlama",
+                "Izgara",
+                "Salata",
+                "Çorba"
+            ]
+        }
+    },
+    "baklagiller": {
+        "soya": {
+            "besin_degerleri": {
+                "kalori": 446,
+                "karbonhidrat": 30,
+                "protein": 36,
+                "yag": 20,
+                "lif": 9,
+                "demir": 15.7,
+                "kalsiyum": 277,
+                "magnezyum": 280
+            },
+            "faydalari": [
+                "Yüksek protein",
+                "Omega-3 kaynağı",
+                "Kemik sağlığı",
+                "Kalp sağlığı"
+            ],
+            "kullanim": [
+                "Yemek",
+                "Salata",
+                "Sos",
+                "Un"
+            ]
+        },
+        "mercimek": {
+            "besin_degerleri": {
+                "kalori": 116,
+                "karbonhidrat": 20,
+                "protein": 9,
+                "yag": 0.4,
+                "lif": 7.9,
+                "demir": 3.3,
+                "folat": 181,
+                "potasyum": 369
+            },
+            "faydalari": [
+                "Protein kaynağı",
+                "Lif kaynağı",
+                "Demir kaynağı",
+                "Kalp sağlığı"
+            ],
+            "kullanim": [
+                "Çorba",
+                "Yemek",
+                "Salata",
+                "Pilav"
+            ]
+        }
+    },
+    "baharatlar": {
+        "zencefil": {
+            "besin_degerleri": {
+                "kalori": 80,
+                "karbonhidrat": 17.8,
+                "protein": 1.8,
+                "yag": 0.8,
+                "lif": 2,
+                "potasyum": 415,
+                "magnezyum": 43,
+                "c_vitamini": 5
+            },
+            "faydalari": [
+                "Sindirim yardımcısı",
+                "Anti-inflamatuar",
+                "Bağışıklık güçlendirici",
+                "Mide bulantısı giderici"
+            ],
+            "kullanim": [
+                "Çay",
+                "Yemek",
+                "Tatlı",
+                "Smoothie"
+            ]
+        },
+        "galangal": {
+            "besin_degerleri": {
+                "kalori": 71,
+                "karbonhidrat": 15.8,
+                "protein": 1.5,
+                "yag": 0.7,
+                "lif": 2,
+                "potasyum": 415,
+                "magnezyum": 43,
+                "c_vitamini": 5
+            },
+            "faydalari": [
+                "Anti-inflamatuar",
+                "Sindirim yardımcısı",
+                "Bağışıklık güçlendirici",
+                "Antibakteriyel"
+            ],
+            "kullanim": [
+                "Çay",
+                "Yemek",
+                "Sos",
+                "Marinasyon"
+            ]
+        }
+    }
+}

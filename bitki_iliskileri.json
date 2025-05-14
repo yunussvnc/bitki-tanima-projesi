@@ -1,0 +1,138 @@
+{
+    "plant_relationships": {
+        "similar_care": {
+            "tropical_fruits": [
+                "banana",
+                "mango",
+                "papaya",
+                "guava",
+                "waterapple"
+            ],
+            "root_vegetables": [
+                "sweet potatoes",
+                "cassava",
+                "ginger",
+                "galangal",
+                "curcuma"
+            ],
+            "leafy_greens": [
+                "spinach",
+                "kale"
+            ],
+            "climbing_plants": [
+                "cucumber",
+                "longbeans"
+            ],
+            "industrial_crops": [
+                "tobacco",
+                "cassava",
+                "coconut"
+            ]
+        },
+        "similar_climate": {
+            "tropical": [
+                "banana",
+                "mango",
+                "papaya",
+                "pineapple",
+                "coconut",
+                "guava"
+            ],
+            "subtropical": [
+                "orange",
+                "pomelo",
+                "watermelon",
+                "cantaloupe"
+            ],
+            "temperate": [
+                "spinach",
+                "kale",
+                "shallot",
+                "tobacco"
+            ],
+            "arid": [
+                "aloevera"
+            ]
+        },
+        "similar_soil": {
+            "acidic": [
+                "pineapple",
+                "blueberry",
+                "raspberry"
+            ],
+            "alkaline": [
+                "asparagus",
+                "broccoli",
+                "cabbage"
+            ],
+            "sandy": [
+                "carrot",
+                "potato",
+                "radish"
+            ],
+            "clay": [
+                "cabbage",
+                "kale",
+                "broccoli"
+            ],
+            "loamy": [
+                "most vegetables",
+                "most fruits"
+            ]
+        },
+        "companion_plants": {
+            "tomato": [
+                "basil",
+                "marigold",
+                "garlic"
+            ],
+            "cucumber": [
+                "radish",
+                "marigold",
+                "beans"
+            ],
+            "carrot": [
+                "onion",
+                "rosemary",
+                "sage"
+            ],
+            "potato": [
+                "beans",
+                "corn",
+                "cabbage"
+            ],
+            "lettuce": [
+                "carrot",
+                "radish",
+                "strawberry"
+            ]
+        },
+        "pest_control": {
+            "aphids": [
+                "marigold",
+                "garlic",
+                "chives"
+            ],
+            "spider_mites": [
+                "rosemary",
+                "thyme",
+                "mint"
+            ],
+            "whiteflies": [
+                "basil",
+                "marigold",
+                "nasturtium"
+            ],
+            "slugs": [
+                "garlic",
+                "rosemary",
+                "thyme"
+            ],
+            "caterpillars": [
+                "mint",
+                "sage",
+                "thyme"
+            ]
+        }
+    }
+}
