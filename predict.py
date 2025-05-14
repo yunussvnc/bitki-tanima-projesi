@@ -4,6 +4,8 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 import os
 import json
+from PIL import Image
+import matplotlib.pyplot as plt
 
 # JSON dosyalarını yükle
 def load_json_file(filename):
@@ -78,44 +80,94 @@ def get_plant_info(plant_name):
     
     return info
 
-def load_and_preprocess_image(img_path, target_size=(300, 300)):
-    """Görüntüyü yükle ve ön işleme yap"""
+def load_and_preprocess_image(img_path, target_size=(224, 224)):
+    """Görüntüyü yükle ve ön işle"""
     img = image.load_img(img_path, target_size=target_size)
     img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
-    img_array = img_array / 255.0  # Normalize
+    img_array = img_array / 255.0
     return img_array
 
-def predict_plant(model_path, img_path):
-    """Bitki türünü tahmin et"""
-    try:
-        # Model ve sınıf isimlerini yükle
-        model = load_model(model_path)
-        with open('models/class_names.txt', 'r') as f:
-            class_names = [line.strip() for line in f.readlines()]
-        
-        # Görüntüyü yükle ve ön işleme yap
-        img_array = load_and_preprocess_image(img_path)
-        
-        # Tahmin yap
-        predictions = model.predict(img_array)
-        
-        # En yüksek 3 tahmini al
-        top_3_idx = np.argsort(predictions[0])[-3:][::-1]
-        top_3_predictions = [(class_names[idx], float(predictions[0][idx])) for idx in top_3_idx]
-        
-        # Sonuçları yazdır
-        print("\nTahmin Sonuçları:")
-        print("-" * 50)
-        for plant_name, confidence in top_3_predictions:
-            print(f"{plant_name}: %{confidence*100:.2f}")
-        print("-" * 50)
-        
-        return top_3_predictions[0]  # En yüksek tahmini döndür
-        
-    except Exception as e:
-        print(f"Hata oluştu: {str(e)}")
-        return None
+def predict_plant(img_path):
+    """Bitki türünü tahmin et ve detaylı bilgileri göster"""
+    # Model ve sınıf isimlerini yükle
+    model = load_model('models/bitki_model.h5')
+    with open('models/class_names.txt', 'r') as f:
+        class_names = f.read().splitlines()
+    
+    # Görüntüyü yükle ve ön işle
+    img_array = load_and_preprocess_image(img_path)
+    
+    # Tahmin yap
+    predictions = model.predict(img_array)
+    top_idx = np.argmax(predictions[0])
+    confidence = predictions[0][top_idx] * 100
+    plant_name = class_names[top_idx]
+    
+    # Sonuçları göster
+    print("\n🔍 Tahmin Sonucu:")
+    print("-" * 30)
+    
+    # Görüntüyü göster
+    img = Image.open(img_path)
+    plt.figure(figsize=(8, 6))
+    plt.imshow(img)
+    plt.axis('off')
+    
+    # Güven skoruna göre renk belirle
+    if confidence >= 90:
+        color = 'green'
+    elif confidence >= 70:
+        color = 'orange'
+    else:
+        color = 'red'
+    
+    plt.title(f"Tahmin: {plant_name}\nGüven: {confidence:.1f}%", 
+              color=color, fontsize=12)
+    plt.show()
+    
+    print(f"\n✅ En Yüksek Tahmin:")
+    print(f"Bitki Türü: {plant_name}")
+    print(f"Güven Oranı: {confidence:.1f}%")
+    
+    # Bitki bilgilerini göster
+    plant_info = get_plant_info(plant_name)
+    
+    print("\n📚 Bitki Bilgileri:")
+    print("-" * 30)
+    
+    if 'temel_bilgiler' in plant_info:
+        print("\n🌱 Temel Bilgiler:")
+        for key, value in plant_info['temel_bilgiler'].items():
+            print(f"{key}: {value}")
+    
+    if 'zorluk_seviyesi' in plant_info:
+        print("\n📊 Zorluk Seviyesi:")
+        print(f"Seviye: {plant_info['zorluk_seviyesi']['seviye']}")
+        print(f"Bilgi: {plant_info['zorluk_seviyesi']['bilgi']['aciklama']}")
+    
+    if 'bakim_takvimi' in plant_info:
+        print("\n📅 Bakım Takvimi:")
+        for ay, bilgi in plant_info['bakim_takvimi'].items():
+            print(f"\n{ay}:")
+            for key, value in bilgi.items():
+                print(f"- {key}: {value}")
+    
+    if 'hastaliklar' in plant_info:
+        print("\n⚠️ Yaygın Hastalıklar:")
+        for hastalik, bilgi in plant_info['hastaliklar'].items():
+            print(f"\n{hastalik}:")
+            print(f"- Belirtiler: {bilgi['belirtiler']}")
+            print(f"- Tedavi: {bilgi['tedavi']}")
+    
+    if 'yetistirme_teknikleri' in plant_info:
+        print("\n🌿 Yetiştirme Teknikleri:")
+        for teknik, bilgi in plant_info['yetistirme_teknikleri'].items():
+            print(f"\n{teknik}:")
+            print(f"- Açıklama: {bilgi['aciklama']}")
+            print(f"- Öneriler: {bilgi['oneriler']}")
+    
+    return plant_name, confidence, plant_info
 
 def predict_image(image_path):
     # Görüntüyü yükle ve ön işle
@@ -143,12 +195,11 @@ def predict_image(image_path):
 
 # Örnek kullanım
 if __name__ == "__main__":
-    model_path = "models/bitki_model.h5"
-    test_dir = "test"
+    # Test görüntüsü yolu
+    test_image = "test_images/banana.jpg"  # Test edilecek görüntüyü buraya koyun
     
-    # Test klasöründeki tüm görüntüleri işle
-    for filename in os.listdir(test_dir):
-        if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
-            img_path = os.path.join(test_dir, filename)
-            print(f"\nGörüntü: {filename}")
-            predict_plant(model_path, img_path) 
+    if os.path.exists(test_image):
+        print(f"\n📸 Görüntü analiz ediliyor: {test_image}")
+        result, confidence, info = predict_plant(test_image)
+    else:
+        print(f"❌ Hata: {test_image} bulunamadı!") 
