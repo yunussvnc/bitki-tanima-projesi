@@ -164,3 +164,6 @@ with open('models/class_names.txt', 'w') as f:
     f.write('\n'.join(class_names))
 
 print("\n✅ Model eğitimi tamamlandı ve kaydedildi!")
+
+print(tf.__version__)
+print(tf.config.list_physical_devices('GPU'))
